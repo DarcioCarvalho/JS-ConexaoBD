@@ -9,6 +9,7 @@ db.transaction (function(tx){
 
 function carregado(){
 	document.getElementById('btn-salvar').addEventListener('click', salvar);
+	document.getElementById('btn-deletar').addEventListener('click', deletar);
 
 	mostrar();
 }
@@ -91,4 +92,14 @@ function atualizar(novoId) {
 		});
 	},null);
 
+}
+
+function deletar() {
+	var id = document.getElementById('field-id').value;
+
+	db.transaction(function (tx){
+		tx.executeSql('DELETE FROM myTable WHERE id=?',[id]);
+	})
+	
+	mostrar();
 }
