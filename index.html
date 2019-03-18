@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>SQLite: Insert, Select & Update</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/estilos.css">
+  </head>
+
+
+  <body class='container'>
+
+  	<header>
+  		<h1>SQLite: Insert, Select & Update</h1>  		
+  	</header>
+
+  	<div class="aligncenter">
+  		<form class="formulario">
+  			<input type="hidden" id="field-id" value="" />
+  			<div class="box">
+  				<input type="text" id="field-name"/>
+  				<label for="field-name">Nome</label>
+  			</div>
+
+  			<div class="box">
+  				<input type="text" id="field-pass"/>
+  				<label for="field-pass">Senha</label>
+  			</div>
+
+  			<div class="box">
+  				<input type="text" id="field-mail"/>
+  				<label for="field-mail">E-mail</label>
+  			</div>
+
+  			<div class="per"><a id="btn-salvar" class="button">SALVAR</a></div>
+
+  			<div class="per"><a id="btn-salvar" class="button">DELETAR</a></div>
+
+  		</form>
+
+  		<table id="table-register">
+  			<thead>
+  				<th>Nome</th>
+  				<th>Senha</th>
+  				<th>E-mail</th>
+  			</thead>
+  			<tbody id="tbody-register">
+          <tr>
+            <td>Testando Tabela</td>
+          </tr>
+  				
+  			</tbody>
+  			
+  		</table>
+
+  	</div>
+
+
+
+
+	<script src="main.js"></script>
+	<script src="banco.js"></script>
+
+
+
+
+  </body>
+</html>
+

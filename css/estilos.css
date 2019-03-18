@@ -1,0 +1,166 @@
+
+.menu-opcoes {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.menu-opcoes ul {
+	font-size: 15px;
+}
+
+.menu-opcoes a {
+	color: #003366;
+}
+
+.menu-opcoes ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+body {
+	background-color: #30F;
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+header {
+	position: relative;
+}
+
+header h1 {
+	color: white; /* #6C6CDC; */
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 240px;
+	
+
+}
+
+.busca,
+.formulario {
+	background-color: orange; /* #DCDCDC; */
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-right: 10px;
+	width: 300px;
+	float: left;
+}
+
+.busca h2,
+.busca form,
+.formulario h2 {
+	margin: 10px;
+}
+
+.formulario {
+	clear: left;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.formulario li,
+.formulario .box {
+	background-color: #FAFABA;
+	margin-bottom: 2px;
+	padding: 5px 10px;
+}
+
+.formulario a {
+	display: block;
+	width: 90px;
+	height: 25px;
+	margin: auto;
+	margin-top: 2px;
+	padding-top: 5px;
+	background-color: #FAFABA;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.formulario .per {
+	background-color: #997;
+	width: 92px;
+	height: 35px;
+	margin: 5px auto;
+	font-size: 20px;
+	padding: 3px;
+	margin-bottom: 3px;
+}
+
+.busca input[type=search] {
+	width: 170px;
+}
+
+
+.destaque {
+	margin-top: 10px;
+}
+
+#table-register {
+	background-color: #8C8CFC;	
+	position: relative;
+	top: 12px;
+
+    padding: 20px 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 600px;	
+
+}
+
+#table-register th,
+#table-register tr {
+	width: 200px;
+	margin-bottom: 3px;
+	margin-right: 3px;
+	text-align: center;
+}
+
+#tbody-register {
+	background-color: orange;
+	height: 150px;
+}
+
+
+.resultado {
+	clear: left;
+	background-color: #8C8CFC;
+	text-transform: uppercase;
+
+	position: relative;
+	top: 20px;
+    padding: 20px 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 570px;	
+}
+
+footer {
+	padding: 20px 0;
+}
+
+footer .container {
+	position: relative;
+	top: 20px;
+	left: 210px;
+
+	float: left;
+
+	color: #7DCD7D;
+	font-size: 10px;
+	font-weight: bold;		
+}
+
