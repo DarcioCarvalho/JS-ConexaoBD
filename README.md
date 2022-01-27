@@ -1,4 +1,4 @@
-# JS-ConexaoBD
+# JS-ConexaoBD - Javascript
 CONEXÃO COM O BANCO DE DADOS SQLite
 
     Projeto de estudo para conectar com o Banco de Dados
